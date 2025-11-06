@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Company Name | Blog - Insights and News</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        /* Custom CSS copied from index.html for theme consistency */
+        .hero-section {
+            background-color: #f8f9fa; 
+            padding: 8rem 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--bs-primary);
+        }
+        .text-gradient {
+            background: linear-gradient(45deg, var(--bs-primary), var(--bs-info));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-img-top-cover {
+            height: 250px; /* Standard height for blog image consistency */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-briefcase-fill me-2 text-primary"></i>Company Name
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-sm btn-primary text-white ms-lg-3" href="contact.html">
+                            Contact Us <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    
+    <section class="hero-section text-center py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h1 class="display-4 fw-bold text-gradient">
+                        Insights, Trends, and Thought Leadership.
+                    </h1>
+                    <p class="lead my-3 text-muted">
+                        Stay updated with our latest articles on technology, strategy, and business growth.
+                    </p>
+                    <div class="input-group mx-auto mt-4" style="max-width: 400px;">
+                        <input type="text" class="form-control form-control-lg" placeholder="Search blog..." aria-label="Search blog">
+                        <button class="btn btn-primary btn-lg" type="button"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Recent Articles</h2>
+            
+            <div class="row g-4">
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="https://picsum.photos/id/440/600/400" class="card-img-top card-img-top-cover" alt="Article on AI">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-primary text-white mb-2 small">Technology</span>
+                            <h5 class="card-title fw-bold">The Future of Work: Integrating AI into Daily Operations</h5>
+                            <p class="card-text small text-muted">Explore how artificial intelligence is reshaping company structures and boosting productivity across all sectors.</p>
+                            <a href="blog-post-detail.html" class="btn btn-sm btn-outline-primary mt-auto">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="card-footer small text-muted">
+                            <i class="bi bi-calendar me-1"></i> Nov 1, 2025 | <i class="bi bi-person me-1"></i> Jane Doe
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="https://picsum.photos/id/456/600/400" class="card-img-top card-img-top-cover" alt="Article on Cyber Security">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-success text-white mb-2 small">Security</span>
+                            <h5 class="card-title fw-bold">5 Essential Cybersecurity Practices for Small Businesses</h5>
+                            <p class="card-text small text-muted">Protecting your data doesn't have to be complex. We break down the crucial steps every small business should take.</p>
+                            <a href="blog-post-detail.html" class="btn btn-sm btn-outline-primary mt-auto">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="card-footer small text-muted">
+                            <i class="bi bi-calendar me-1"></i> Oct 25, 2025 | <i class="bi bi-person me-1"></i> John Smith
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="https://picsum.photos/id/47/600/400" class="card-img-top card-img-top-cover" alt="Article on Strategy">
+                        <div class="card-body d-flex flex-column">
+                            <span class="badge bg-warning text-dark mb-2 small">Strategy</span>
+                            <h5 class="card-title fw-bold">Scaling Smart: How to Build a Flexible Business Model</h5>
+                            <p class="card-text small text-muted">A deep dive into agile scaling techniques that allow your company to adapt quickly to market changes and opportunities.</p>
+                            <a href="blog-post-detail.html" class="btn btn-sm btn-outline-primary mt-auto">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="card-footer small text-muted">
+                            <i class="bi bi-calendar me-1"></i> Oct 18, 2025 | <i class="bi bi-person me-1"></i> Alice Johnson
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="d-flex justify-content-center mt-5">
+                <nav aria-label="Blog pagination">
+                    <ul class="pagination shadow-sm">
+                        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <div class="row g-4">
+            
+            <div class="col-md-3 col-sm-6">
+                <h5 class="text-primary mb-3">Company Name</h5>
+                <p class="text-muted small">Providing innovative solutions since 2010. Our vision is to be the leader in corporate strategy and digital transformation.</p>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="list-unstyled small">
+                    <li><a href="services.html" class="text-white text-decoration-none py-1 d-block">Our Services</a></li>
+                    <li><a href="portfolio.html" class="text-white text-decoration-none py-1 d-block">Case Studies</a></li>
+                    <li><a href="careers.html" class="text-white text-decoration-none py-1 d-block">Careers</a></li>
+                    <li><a href="faq.html" class="text-white text-decoration-none py-1 d-block">FAQs</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <h5 class="mb-3">Legal</h5>
+                <ul class="list-unstyled small">
+                    <li><a href="privacy-policy.html" class="text-white text-decoration-none py-1 d-block">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html" class="text-white text-decoration-none py-1 d-block">Terms of Service</a></li>
+                    <li><a href="contact.html" class="text-white text-decoration-none py-1 d-block">Support</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <h5 class="mb-3">Connect</h5>
+                <div class="d-flex">
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+                </div>
+                <p class="mt-3 small text-muted">Email: info@company.com</p>
+            </div>
+
+        </div>
+
+        <hr class="my-4 text-secondary">
+        
+        <div class="text-center small text-muted">
+            &copy; <span id="currentYear5"></span> Company Name. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+    document.getElementById('currentYear5').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
